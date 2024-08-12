@@ -19,3 +19,7 @@ i <- function() stop("Error (intentional)!")
 ```{r}
 f()
 ```
+
+```{r}
+options(rlang_backtrace_on_error = "full")
+```
